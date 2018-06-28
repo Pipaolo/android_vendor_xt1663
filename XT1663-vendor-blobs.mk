@@ -9,3 +9,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/XT1663/lib
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/XT1663/xbin,system/xbin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/XT1663/vendor,system/vendor)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/XT1663/framework,system/framework)
