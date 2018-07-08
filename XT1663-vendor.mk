@@ -1,1 +1,1 @@
-$(call inherit-product, vendor/motorola/XT1663/XT1663-vendor-blobs.mk)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/XT1663/proprietary,system)
